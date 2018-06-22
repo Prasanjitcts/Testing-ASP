@@ -1,2 +1,4 @@
 #!/bin/bash
-yum install -y httpd
+	yum -y install httpd > /var/log/installapache.out 2>&1
+
+
